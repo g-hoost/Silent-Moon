@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Moon</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7B8CE4;
+            color: #EBEAEC;
+
+        }
+
+        header {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 1em;
+        }
+
+        ul {
+            display: inline-block;
+            position: absolute;
+            text-align: right;
+            padding-top: 0%;
+            margin-top: 0;
+            right: 1em;
+
+        }
+
+        span {
+            font-size: 2rem;
+            text-decoration: none;
+            
+        }
+        li a {
+        }
+
+        li {
+            display: inline;
+            text-align: right;
+            text-decoration: none;
+            font-size: 1rem;
+            margin-right: 2rem;
+            
+            
+        }
+
+        h1 {
+            color: #FFECCC;
+            font-size: 3rem;
+           
+            text-align: center;
+        }
+        p {
+            font-size: 1rem;
+            text-align: center;
+            line-height: 1.7em;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        section {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .left {
+            text-align: center;
+            width: 400px;
+            margin-top: 25rem;
+        }
+        
+        .right {
+            position: relative;
+            height: 7rem;
+            width: 7rem;
+            min-width: 7rem;
+            right: 400px;
+            margin-top: 20rem;
+
+        }
+        .right img {
+            position: absolute;
+            
+        }
+        #woman {
+            position: absolute;
+            top: 100px;
+            left: 70px;
+        }
+        #clouds1 {
+            position: absolute;
+            left: 330px;
+        }
+        .button {
+            position: relative;
+            background-color:#EBEAEC;
+            color: #3F414E;
+            top: 80px;
+            padding: 1em 5em;
+            border-radius: 25px;
+            text-transform: uppercase;
+            font-size: 1em;
+            font-weight: bolder;
+
+        }
+    </style>
+</head>
+<!--#7B8CE4, #EBEAEC, #FFECCC, #3F414E
+-->
+<body>
+    <header><!--Eddy hat das mit einem nav im header gelöst.-->
+        <span>Silent <img src="Untitled/logo.png" alt="Logo"> Moon</span>
+        <ul>
+            <li><a href="#">About</a></li><!--Liste dient der Semantik.-->
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </header>
+
+    <section><!--Eddy hat das mit einem main-Bereich gelöst.-->
+        <div class="left">
+            <h1>Welcome to<br>Silent Moon</h1>
+            <p>Explore the app, find some peace of mind<br>to prepare for meditation.</p>
+            <a class="button" href="#">get started</a><!--Eddy hat das mit einem echten Button
+                und einem a-Tag darin gelöst. Adriaan sagt, kein Button.-->
+        </div>
+        <div class="right">
+            <img id="circle" src="Untitled/circle_bg.png" alt="Kreis">
+            <img id="woman" src="Untitled/woman_meditating.png" alt="Frau, die meditiert">
+            <img id="clouds1" src="Untitled/clouds1.png" alt="Wolken">
+            <img id="clouds2" src="Untitled/clouds2.png" alt="kleine Wolken">
+        </div>
+    </section>
+
+</body>
+
+</html>

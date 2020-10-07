@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../CSS-Maßeinheiten/Exercises/lev3_1"
+		},
+		{
+			"path": "../../../Einführung CSS/CSS Position Property"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CSS Position Property"
+	}
+}
